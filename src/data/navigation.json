@@ -1,0 +1,31 @@
+{
+"homepage":"https://familymarketing.us",
+  "pages": [
+    {
+      "name": "Home",
+      "link": "/",
+      "metadesc": "Home",
+      "image": "https://surfshark.com/wp-content/themes/surfshark-9.87/assets/img/home/browse-privately.png"
+    },
+
+    {
+      "name": "Services",
+      "link": "/services",
+      "metadesc": "Services",
+      "image": "https://surfshark.com/wp-content/themes/surfshark-9.87/assets/img/home/browse-privately.png"
+    },
+
+    {
+      "name": "Contact",
+      "link": "/contact",
+      "metadesc": "Contact",
+      "image": "https://surfshark.com/wp-content/themes/surfshark-9.87/assets/img/home/browse-privately.png"
+    },
+    {
+      "name": "Links",
+      "link": "/links",
+      "metadesc": "Services",
+      "image": "https://surfshark.com/wp-content/themes/surfshark-9.87/assets/img/home/browse-privately.png"
+    }
+  ]
+}
