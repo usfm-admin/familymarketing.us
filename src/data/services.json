@@ -22,9 +22,9 @@
   },
   {
     "name": "Custom Email Servers",
-    "link": "services/email",
+    "link": "services/mail-server",
     "metadesc": "Custom Email Servers",
-    "image": "https://images.unsplash.com/photo-1572916289328-eca59d6903ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1017&q=80",
     "id": 3
   }
 ]
