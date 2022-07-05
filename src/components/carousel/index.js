@@ -15,7 +15,7 @@ export default function Carousel() {
       {services
         ? services.map((items, i) => {
             return (
-              <Link className="p-5" to={items.link}>
+              <Link className="p-5" to={'services/' + items.link}>
                 <Card
                   key={i}
                   name={items.name}

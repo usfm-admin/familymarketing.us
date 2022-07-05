@@ -5,6 +5,8 @@ const services = require("../src/data/services.json");
 
 async function sitemap() {
   const today = await new Date();
+  const event = await today.toISOString()
+  await console.log(event)
 
   await fs.writeFileSync(
     "../public/sitemap.xml",
@@ -13,24 +15,18 @@ async function sitemap() {
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
         <loc>${data.homepage}</loc>
-        <lastmod>${today.getFullYear()}-${
-      today.getMonth() + 1
-    }-${today.getDate()}</lastmod>
+        <lastmod>${event}</lastmod>
       </url>
       ${data.pages.map((item) => {
         return `<url>
           <loc>${`${data.homepage}${item.link}`}</loc>
-          <lastmod>${today.getFullYear()}-${
-          today.getMonth() + 1
-        }-${today.getDate()}</lastmod>
+          <lastmod>${event}</lastmod>
       </url>`;
       })}
       ${services.map((item) => {
         return `<url>
         <loc>${`${data.homepage}/${item.link}`}</loc>
-        <lastmod>${today.getFullYear()}-${
-          today.getMonth() + 1
-        }-${today.getDate()}</lastmod>
+        <lastmod>${event}</lastmod>
     </url>`;
       })}
     </urlset>`
