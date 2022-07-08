@@ -66,7 +66,7 @@ export default function FormModal() {
   }
 
   return (
-    <div className=" fixed right-0  left-0 top-3 lg:top-14	 m-auto font-mono ">
+    <div className="  w-full 	 m-auto font-mono ">
       <div className="grid  grid-cols-1 lg:p-11 p-5">
         <div className="bg-white  p-5 lg:test testm order-last  test2 rounded-xl">
           <div>

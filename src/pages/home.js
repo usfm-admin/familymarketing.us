@@ -9,6 +9,8 @@ import { Helmet } from "react-helmet";
 import usfmfolder from "../assets/usfm-folder.png";
 import usfmpiggy from "../assets/usfmpiggy.png";
 
+import logo from "../assets/usfmlogo.webp"
+
 export default function Home() {
   return (
     <div>
@@ -20,7 +22,7 @@ export default function Home() {
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
         />
-        <meta property="og:image" content="https://i.imgur.com/Yieb5il.png" />
+        <meta property="og:image" content={logo} />
       </Helmet>
       <div className=" m-auto img z-0 text-center pt-24 p-12">
         <h2 className="text-white font-bold mb-3 text-2xl bg-gradient-to-r from-blue-500/70 to-red-500/70  p-2">
@@ -101,7 +103,7 @@ export default function Home() {
 
           <h2 className="font-bold mb-2.5">Best Custom Web Design Templates</h2>
           <p className="text-sm">
-            Our website design templates are A+ tested on Google Lighthouse,
+            Our website design templates are tested to be superior on Google Lighthouse,
             meaning they will offer superior performance, SEO, and PWA
             functionality.
           </p>

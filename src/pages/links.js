@@ -3,7 +3,7 @@ import LinkData from "../data/links.json";
 import LinkCard from "../components/linkcard";
 
 import { Helmet } from "react-helmet";
-
+import logo from "../assets/usfmlogo.webp"
 
 export default function Services() {
   return (
@@ -16,7 +16,7 @@ export default function Services() {
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
         />
-        <meta property="og:image" content="https://i.imgur.com/Yieb5il.png" />
+        <meta property="og:image" content={logo} />
       </Helmet>
       {LinkData.links.map((item,index) => {
         return (

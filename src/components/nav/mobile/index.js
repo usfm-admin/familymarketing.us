@@ -4,7 +4,7 @@ import Menu from "./menu";
 
 import { Link } from "react-router-dom";
 
-import logo from "../../../assets/usfm-logo-cropped.png"
+import logo from "../../../assets/usfm-logo-cropped.webp"
 
 export default function MobileNav(props) {
   const [open, setopen] = useState(false);
