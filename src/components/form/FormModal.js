@@ -66,7 +66,7 @@ export default function FormModal() {
   }
 
   return (
-    <div className="  w-full 	 m-auto font-mono ">
+    <div className="  w-full  relative	 m-auto font-mono ">
       <div className="grid  grid-cols-1 lg:p-11 p-5">
         <div className="bg-white  p-5 lg:test testm order-last  test2 rounded-xl">
           <div>
@@ -137,7 +137,7 @@ export default function FormModal() {
                   required
                 />
               </div>
-              <div className="m-auto">
+              <div className="m-auto p-8">
                 <ReCAPTCHA sitekey={templatedata.captcha} onChange={onChange} />
               </div>
               <div class="flex items-start mb-6"></div>

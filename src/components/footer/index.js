@@ -1,3 +1,5 @@
+
+
 export default function Footer() {
   return (
     <section className="bg-slate-200/50 w-full p-2 m-auto text-center">
