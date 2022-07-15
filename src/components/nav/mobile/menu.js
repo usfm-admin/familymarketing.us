@@ -1,9 +1,9 @@
-export default function Menu(props) {
-    return (
-        <button>
+export default function Menu() {
+  return (
+    <button>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-9 mt-1"
+        className="h-14"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -15,6 +15,6 @@ export default function Menu(props) {
           d="M4 6h16M4 12h16M4 18h16"
         />
       </svg>
-      </button>
-    );
-  }
+    </button>
+  );
+}

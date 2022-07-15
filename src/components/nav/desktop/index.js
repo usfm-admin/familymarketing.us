@@ -1,15 +1,9 @@
-import {
-  Routes,
-  Route,
-  Outlet,
-  Link,
-  useParams,
-  useResolvedPath,
-  matchRoutes,
-} from "react-router-dom";
+
 import CustomLink from "./customlink";
 
 import Data from "../../../data/global.json"
+
+import logo from "../../../assets/unitedstatesfamilymarketing.webp"
 
 export default function DeskNav(props) {
   return (
@@ -19,7 +13,7 @@ export default function DeskNav(props) {
           <div className="flex space-x-7">
             <div>
               <a href="/" className="flex items-center py-4 px-2">
-                <img src="https://ik.imagekit.io/zaxky5cgqiao/usfm-logo-cropped_av47chty3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652247729618" alt="Logo" className="h-8 w-8 mr-2" />
+                <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
                 <span className="font-semibold text-gray-500 text-lg">
                  {Data.shortname}
                 </span>
@@ -34,20 +28,6 @@ export default function DeskNav(props) {
                 );
               })}
             </div>
-          </div>
-          <div className="hidden lg:hidden md:flex items-center space-x-3 ">
-            <a
-              href=""
-              className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300"
-            >
-              Log In
-            </a>
-            <a
-              href=""
-              className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300"
-            >
-              Sign Up
-            </a>
           </div>
           <div className="md:hidden flex items-center">
             <button className="outline-none mobile-menu-button">

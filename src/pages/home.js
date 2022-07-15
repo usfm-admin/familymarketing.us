@@ -9,15 +9,19 @@ import { Helmet } from "react-helmet";
 import usfmfolder from "../assets/usfm-folder.png";
 import usfmpiggy from "../assets/usfmpiggy.png";
 
-import logo from "../assets/usfmlogo.webp"
+import logo from "../assets/unitedstatesfamilymarketing.webp"
+
+import jsondata from "../data/global.json"
+
+
 
 export default function Home() {
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Buy Custom Websites - Familymarketing.us</title>
-        <link rel="canonical" href="https://familymarketing.us" />
+        <title> {jsondata.shortdomain[0].toUpperCase() + jsondata.shortdomain.slice(1).toLowerCase()} - {jsondata.target}</title>
+        <link  rel="canonical" href="https://familymarketing.us" />
         <meta
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
@@ -69,6 +73,7 @@ export default function Home() {
               className="text-blue-400 hover:text-blue-500"
               href="https://vercel.com"
               target="_blank"
+              rel="noreferrer"
             >
               Vercel
             </a>{" "}
@@ -77,6 +82,7 @@ export default function Home() {
               className="text-blue-400 hover:text-blue-500"
               href="https://nextjs.com"
               target="_blank"
+              rel="noreferrer"
             >
               NextJS
             </a>{" "}
@@ -85,6 +91,7 @@ export default function Home() {
               className="text-blue-400 hover:text-blue-500"
               href="https://reactjs.org"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               React

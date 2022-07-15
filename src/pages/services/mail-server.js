@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import logo from "../../assets/usfmlogo.webp"
+import logo from "../../assets/unitedstatesfamilymarketing.webp"
 
 const title = 'Mail Server'
 

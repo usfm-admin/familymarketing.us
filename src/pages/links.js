@@ -3,7 +3,7 @@ import LinkData from "../data/links.json";
 import LinkCard from "../components/linkcard";
 
 import { Helmet } from "react-helmet";
-import logo from "../assets/usfmlogo.webp"
+import logo from "../assets/unitedstatesfamilymarketing.webp"
 
 export default function Services() {
   return (
