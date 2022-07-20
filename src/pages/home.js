@@ -6,8 +6,8 @@ import Data from "../data/global.json";
 
 import { Helmet } from "react-helmet";
 
-import usfmfolder from "../assets/usfm-folder.png";
-import usfmpiggy from "../assets/usfmpiggy.png";
+import usfmfolder from "../assets/usfm-folder.webp";
+import usfmpiggy from "../assets/usfmpiggy.webp";
 
 import logo from "../assets/unitedstatesfamilymarketing.webp"
 
@@ -29,9 +29,9 @@ export default function Home() {
         <meta property="og:image" content={logo} />
       </Helmet>
       <div className=" m-auto img z-0 text-center pt-24 p-12">
-        <h2 className="text-white font-bold mb-3 text-2xl bg-gradient-to-r from-blue-500/70 to-red-500/70  p-2">
-          Custom Web Design Templates{" "}
-        </h2>
+        <h1 className="text-white font-bold mb-3 text-2xl bg-gradient-to-r from-blue-500/70 to-red-500/70  p-2">
+          {jsondata.target}
+        </h1>
       </div>
       <section>
         <div className="  text-white">
