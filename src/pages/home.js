@@ -122,8 +122,8 @@ export default function Home() {
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
           <h2 className="font-bold mb-2.5">Affordable Website Design</h2>
-          Build your dream website without breaking the bank. We offer packages
-          starting at $9.99 per month.
+          Build your dream website without breaking the bank. We offer managed website/email servers
+          starting at $99.99/month.
           <p className="text-sm"></p>
         </div>
       </section>
