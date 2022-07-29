@@ -3,13 +3,13 @@ import ServiceData from "../data/services.json";
 import ServiceCard from "../components/servicecard";
 import { Helmet } from "react-helmet";
 
-import logo from "../assets/unitedstatesfamilymarketing.webp"
+import logo from "../assets/usfmmeta.webp"
 
 
 export default function Services() {
   return (
     <div className=" img flex flex-col md:flex-row lg:flex-row">
-           <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Services - Familymarketing.us</title>
         <link rel="canonical" href="https://familymarketing.us/services" />

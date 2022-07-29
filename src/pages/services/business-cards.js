@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import logo from "../../assets/unitedstatesfamilymarketing.webp"
+import logo from "../../assets/usfmmeta.webp"
 
 import jsondata from "../../data/global.json"
 

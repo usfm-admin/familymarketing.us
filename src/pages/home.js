@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 import usfmfolder from "../assets/usfm-folder.webp";
 import usfmpiggy from "../assets/usfmpiggy.webp";
 
-import logo from "../assets/unitedstatesfamilymarketing.webp";
+import logo from "../assets/usfmmeta.webp"
 
 import jsondata from "../data/global.json";
 

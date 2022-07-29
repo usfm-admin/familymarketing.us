@@ -3,7 +3,7 @@ import FormModal from "../components/form/FormModal";
 import templatedata from "../data/formdata.json";
 import { Helmet } from "react-helmet";
 
-import logo from "../assets/unitedstatesfamilymarketing.webp"
+import logo from "../assets/usfmmeta.webp"
 
 function App() {
   return (
