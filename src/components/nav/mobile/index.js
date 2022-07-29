@@ -19,7 +19,7 @@ export default function MobileNav(props) {
           <Link to={"/"}>
             <img
               src={logo}
-              className="float-right h-20"
+              className="float-right h-20 w-20"
               alt="United States Family Marketing"
             />
           </Link>

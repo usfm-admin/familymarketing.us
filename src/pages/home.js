@@ -9,11 +9,9 @@ import { Helmet } from "react-helmet";
 import usfmfolder from "../assets/usfm-folder.webp";
 import usfmpiggy from "../assets/usfmpiggy.webp";
 
-import logo from "../assets/unitedstatesfamilymarketing.webp"
+import logo from "../assets/unitedstatesfamilymarketing.webp";
 
-import jsondata from "../data/global.json"
-
-
+import jsondata from "../data/global.json";
 
 export default function Home() {
   return (
@@ -21,7 +19,7 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title> {jsondata.fullname}</title>
-        <link  rel="canonical" href="https://familymarketing.us" />
+        <link rel="canonical" href="https://familymarketing.us" />
         <meta
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
@@ -60,7 +58,7 @@ export default function Home() {
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
           <img
             src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85d14b6782933bd5a70060_decentralized.svg"
-            className="mb-5 w-12"
+            className="mb-5 w-12 h-12"
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
 
@@ -104,26 +102,26 @@ export default function Home() {
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
           <img
             src={usfmfolder}
-            className="mb-5 w-12"
+            className="mb-5 w-12 h-12"
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
 
           <h2 className="font-bold mb-2.5">Best Custom Web Design Templates</h2>
           <p className="text-sm">
-            Our website design templates are tested to be superior on Google Lighthouse,
-            meaning they will offer superior performance, SEO, and PWA
-            functionality.
+            Our website design templates are tested to be superior on Google
+            Lighthouse, meaning they will offer superior performance, SEO, and
+            PWA functionality.
           </p>
         </div>
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
           <img
             src={usfmpiggy}
-            className="mb-5 w-12"
+            className="mb-5 w-12 h-12"
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
           <h2 className="font-bold mb-2.5">Affordable Website Design</h2>
-          Build your dream website without breaking the bank. We offer managed website/email servers
-          for as low as $9.99/month
+          Build your dream website without breaking the bank. We offer managed
+          website/email servers for as low as $9.99/month
           <p className="text-sm"></p>
         </div>
       </section>
