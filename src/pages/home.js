@@ -123,7 +123,7 @@ export default function Home() {
           />
           <h2 className="font-bold mb-2.5">Affordable Website Design</h2>
           Build your dream website without breaking the bank. We offer managed website/email servers
-          starting at $99.99/month.
+          for as low as $9.99/month
           <p className="text-sm"></p>
         </div>
       </section>

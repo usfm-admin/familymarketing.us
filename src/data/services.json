@@ -3,28 +3,28 @@
     "name": "Web Design",
     "link": "web-design",
     "metadesc": "Web Design",
-    "image": "https://images.unsplash.com/photo-1581291519195-ef11498d1cf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "image": "usfm-web-design.webp",
     "id": 0
   },
   {
     "name": "Business Cards",
     "link": "business-cards",
-    "metadesc": "Home",
-    "image": "https://images.unsplash.com/photo-1495846414472-6696652d955f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "metadesc": "Business Cards",
+    "image": "usfm-business-cards.webp",
     "id": 1
   },
   {
     "name": "Logos & Seals",
     "link": "logos",
-    "metadesc": "Home",
-    "image": "https://images.unsplash.com/photo-1572916289328-eca59d6903ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "metadesc": "Logos & Seals",
+    "image": "usfm-logos.webp",
     "id": 2
   },
   {
     "name": "Custom Email Servers",
     "link": "mail-server",
     "metadesc": "Custom Email Servers",
-    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1017&q=80",
+    "image": "usfm-email-servers.webp",
     "id": 3
   }
 ]
