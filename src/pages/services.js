@@ -3,6 +3,7 @@ import ServiceData from "../data/services.json";
 import ServiceCard from "../components/servicecard";
 import { Helmet } from "react-helmet";
 
+import logo from "../assets/unitedstatesfamilymarketing.webp"
 
 
 export default function Services() {
@@ -16,7 +17,7 @@ export default function Services() {
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
         />
-        <meta property="og:image" content="https://i.imgur.com/m46SlqZ.jpeg" />
+        <meta property="og:image" content={logo} />
       </Helmet>
       {ServiceData.map((item) => {
         return (
