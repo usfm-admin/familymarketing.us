@@ -20,7 +20,7 @@ export default function Home() {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title> {jsondata.shortdomain[0].toUpperCase() + jsondata.shortdomain.slice(1).toLowerCase()} - {jsondata.target}</title>
+        <title> {jsondata.fullname}</title>
         <link  rel="canonical" href="https://familymarketing.us" />
         <meta
           name="description"

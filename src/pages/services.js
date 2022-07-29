@@ -10,8 +10,8 @@ export default function Services() {
     <div className=" img flex flex-col md:flex-row lg:flex-row">
            <Helmet>
         <meta charSet="utf-8" />
-        <title>Buy Custom Websites - Familymarketing.us</title>
-        <link rel="canonical" href="https://familymarketing.us" />
+        <title>Services - Familymarketing.us</title>
+        <link rel="canonical" href="https://familymarketing.us/services" />
         <meta
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
