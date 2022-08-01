@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import logo from "../../assets/usfmmeta.webp"
 
 import jsondata from "../../data/global.json"
@@ -12,6 +12,8 @@ export default function WebDesign() {
 
   return (
     <div>
+              <HelmetProvider>
+
       <Helmet>
         <meta charSet="utf-8" />
         <title> {title + ' - ' + jsondata.shortdomain[0].toUpperCase() + jsondata.shortdomain.slice(1).toLowerCase()} </title>
@@ -22,6 +24,8 @@ export default function WebDesign() {
         />
         <meta property="og:image" content={logo} />
       </Helmet>
+      </HelmetProvider>
+
       <div className="wdhero ">
         <div className="bg-sky-500/50">
           <div className=" p-12 text-3xl text-white">

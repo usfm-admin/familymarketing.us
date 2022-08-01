@@ -27,6 +27,7 @@ export default function Home() {
         />
         <meta property="og:image" content={logo} />
       </Helmet>
+      </HelmetProvider>
       <div className=" m-auto img z-0 text-center pt-24 p-12">
         <h1 className="text-white font-bold mb-3 text-2xl bg-gradient-to-r from-blue-500/70 to-red-500/70  p-2">
           {jsondata.target}
@@ -126,7 +127,6 @@ export default function Home() {
           <p className="text-sm"></p>
         </div>
       </section>
-      </HelmetProvider>
     </div>
   );
 }
