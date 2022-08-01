@@ -3,7 +3,7 @@ export default function Card(props) {
     <div className="border shadow-sm">
       <div className="relative w-64 h-64 overflow-hidden">
         <img
-src={require(`../../../assets/${props.image}`)}
+          src={require(`../../../assets/${props.image}`)}
           alt={props.metadesc}
           className="object-cover w-full h-full"
         />

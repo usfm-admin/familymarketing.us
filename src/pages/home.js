@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Data from "../data/global.json";
 
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import usfmfolder from "../assets/usfm-folder.webp";
 import usfmpiggy from "../assets/usfmpiggy.webp";
@@ -16,6 +16,7 @@ import jsondata from "../data/global.json";
 export default function Home() {
   return (
     <div>
+        <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
         <title> {jsondata.fullname}</title>
@@ -125,6 +126,7 @@ export default function Home() {
           <p className="text-sm"></p>
         </div>
       </section>
+      </HelmetProvider>
     </div>
   );
 }
