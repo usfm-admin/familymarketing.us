@@ -1,23 +1,24 @@
 import { Routes, Route } from "react-router-dom";
 
-import React, {lazy} from "react";
+import React from "react";
 
 
 
 import Nav from "../nav";
 
+import Home from "../../pages/home";
+import Services from "../../pages/services";
+import Contact from "../../pages/contact";
+import Links from "../../pages/links";
+
+
+import WebDesign from "../../pages/services/web-design";
+import BusinessCards from "../../pages/services/business-cards";
+import LogosSeals from "../../pages/services/logos-seals";
+import MailServer from "../../pages/services/mail-server"
 
 
 
-
-const WebDesign = lazy(()=> import("../../pages/services/web-design"))
-const Home = lazy(()=> import("../../pages/home"))
-const Services = lazy(()=> import("../../pages/services"))
-const Contact = lazy(()=> import("../../pages/contact"))
-const Links = lazy(()=> import("../../pages/links"))
-const BusinessCards = lazy(()=> import("../../pages/services/business-cards"))
-const LogosSeals = lazy(()=> import("../../pages/services/logos-seals"))
-const MailServer = lazy(()=> import("../../pages/services/mail-server"))
 
 
 
