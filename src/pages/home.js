@@ -19,7 +19,7 @@ export default function Home() {
         <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
-        <title> {jsondata.fullname} + {jsondata.target}</title>
+        <title> {jsondata.fullname} {jsondata.target}</title>
         <link rel="canonical" href={window.location.href} />
         <meta
           name="description"
