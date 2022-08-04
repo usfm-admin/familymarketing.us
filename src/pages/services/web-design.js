@@ -17,7 +17,7 @@ export default function WebDesign() {
         
         <meta charSet="utf-8" />
         <title> {title + ' - ' + jsondata.shortdomain[0].toUpperCase() + jsondata.shortdomain.slice(1).toLowerCase()} </title>
-        <link rel="canonical" href="https://familymarketing.us/services/web-design" />
+        <link rel="canonical" href={window.location.href} />
         <meta
           name="description"
           content={desc}

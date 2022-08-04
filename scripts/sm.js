@@ -13,10 +13,6 @@ async function sitemap() {
 
     `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-      <url>
-        <loc>${data.homepage}</loc>
-        <lastmod>${event}</lastmod>
-      </url>
       ${data.pages.map((item) => {
         return `<url>
           <loc>${`${data.homepage}${item.link}`}</loc>
@@ -25,7 +21,7 @@ async function sitemap() {
       })}
       ${services.map((item) => {
         return `<url>
-        <loc>${`${data.homepage}/${item.link}`}</loc>
+        <loc>${`${data.homepage}/services/${item.link}`}</loc>
         <lastmod>${event}</lastmod>
     </url>`;
       })}

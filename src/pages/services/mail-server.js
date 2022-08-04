@@ -25,10 +25,8 @@ export default function WebDesign() {
               jsondata.shortdomain[0].toUpperCase() +
               jsondata.shortdomain.slice(1).toLowerCase()}{" "}
           </title>
-          <link
-            rel="canonical"
-            href="https://familymarketing.us/services/mail-server"
-          />
+          <link rel="canonical" href={window.location.href} />
+
           <meta name="description" content={desc} />
           <meta property="og:image" content={logo} />
         </Helmet>

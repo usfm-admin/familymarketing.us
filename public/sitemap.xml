@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
-        <loc>https://familymarketing.us</loc>
-        <lastmod>2022-07-18T06:13:42.869Z</lastmod>
-      </url>
-      <url>
           <loc>https://familymarketing.us/</loc>
-          <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+          <lastmod>2022-08-04T19:05:27.512Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/services</loc>
-          <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+          <lastmod>2022-08-04T19:05:27.512Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/contact</loc>
-          <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+          <lastmod>2022-08-04T19:05:27.512Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/links</loc>
-          <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+          <lastmod>2022-08-04T19:05:27.512Z</lastmod>
       </url>
       <url>
-        <loc>https://familymarketing.us/web-design</loc>
-        <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+        <loc>https://familymarketing.us/services/web-design</loc>
+        <lastmod>2022-08-04T19:05:27.512Z</lastmod>
     </url>,<url>
-        <loc>https://familymarketing.us/business-cards</loc>
-        <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+        <loc>https://familymarketing.us/services/business-cards</loc>
+        <lastmod>2022-08-04T19:05:27.512Z</lastmod>
     </url>,<url>
-        <loc>https://familymarketing.us/logos</loc>
-        <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+        <loc>https://familymarketing.us/services/logos</loc>
+        <lastmod>2022-08-04T19:05:27.512Z</lastmod>
     </url>,<url>
-        <loc>https://familymarketing.us/mail-server</loc>
-        <lastmod>2022-07-18T06:13:42.869Z</lastmod>
+        <loc>https://familymarketing.us/services/mail-server</loc>
+        <lastmod>2022-08-04T19:05:27.512Z</lastmod>
     </url>
     </urlset>

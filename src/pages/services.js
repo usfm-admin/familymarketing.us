@@ -13,7 +13,7 @@ export default function Services() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Services - Familymarketing.us</title>
-        <link rel="canonical" href="https://familymarketing.us/services" />
+        <link rel="canonical" href={window.location.href} />
         <meta
           name="description"
           content="United States Family Marketing offers affordable marketing services online."

@@ -20,7 +20,7 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title> {jsondata.fullname}</title>
-        <link rel="canonical" href="https://familymarketing.us" />
+        <link rel="canonical" href={window.location.href} />
         <meta
           name="description"
           content="United States Family Marketing offers affordable marketing services online."
@@ -58,12 +58,6 @@ export default function Home() {
       </section>
       <section className="flex flex-col p-3">
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
-          <img
-            src="https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85d14b6782933bd5a70060_decentralized.svg"
-            className="mb-5 w-12 h-12"
-            alt="US FAMILY MARKETING WEB DESIGN SERVICES"
-          />
-
           <h2 className="font-bold mb-2.5">Unique Hosting Solutions</h2>
           <p className="text-sm">
             Host our websites for free without worrying about Cpanel or clunky
