@@ -15,7 +15,7 @@ export default function DeskNav(props) {
               <a href="/" className="flex items-center py-4 px-2">
                 <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
                 <span className="font-semibold text-gray-500 text-lg">
-                 {Data.shortname}
+                 {Data.fullname}
                 </span>
               </a>
             </div>
