@@ -7,7 +7,7 @@ import logo from "../assets/usfmmeta.webp"
 
 function App() {
   return (
-    <header className="App-header background">
+    <header>
               <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />

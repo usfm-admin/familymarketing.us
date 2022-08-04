@@ -70,20 +70,7 @@ export default function FormModal() {
       <div className="grid  grid-cols-1 lg:p-11 p-5">
         <div className="bg-white  p-5 lg:test testm order-last  test2 rounded-xl">
           <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
+         
             <form ref={form}>
               <div className="mb-6 flex-1">
                 <h1 className="font-bold text-black text-2xl mb-6">
