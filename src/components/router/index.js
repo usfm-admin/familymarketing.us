@@ -1,10 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-
 import React, {Suspense, lazy} from "react";
-
-
-
-
 import Nav from "../nav";
 
 const WebDesign = lazy(() => import("../../pages/services/web-design"));
@@ -16,10 +11,8 @@ const BusinessCards = lazy(() => import("../../pages/services/business-cards"));
 const LogosSeals = lazy(() => import("../../pages/services/logos-seals"));
 const MailServer = lazy(() => import("../../pages/services/mail-server"));
 
-
 export default function Router() {
   return (
-    <div>
       <Suspense fallback={<div className="flex items-center justify-center h-screen "><div className="loader"></div></div>}>
         <Nav />
         <Routes>
@@ -31,8 +24,8 @@ export default function Router() {
           <Route path="/services/business-cards" element={<BusinessCards />} />
           <Route path="/services/logos" element={<LogosSeals />} />
           <Route path="/services/mail-server" element={<MailServer />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
-    </div>
   );
 }
