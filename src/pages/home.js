@@ -4,30 +4,36 @@ import { Link } from "react-router-dom";
 
 import Data from "../data/global.json";
 
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import usfmfolder from "../assets/usfm-folder.webp";
 import usfmpiggy from "../assets/usfmpiggy.webp";
 
-import logo from "../assets/usfmmeta.webp"
+import logo from "../assets/usfmmeta.webp";
 
 import jsondata from "../data/global.json";
 
 export default function Home() {
   return (
     <div>
-        <HelmetProvider>
-      <Helmet>
-        <title> {jsondata.fullname} {jsondata.target}</title>
-        <link rel="canonical" href={window.location.href} />
-        <meta
-          name="description"
-          content="United States Family Marketing offers affordable marketing services online."
-        />
-        <meta property="og:image" content={logo} />
-        <meta property="og:url" content= {window.location.href}/>
-          <meta property="og:title"  content={jsondata.fullname + jsondata.target} />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>
+            {" "}
+            {jsondata.fullname} {jsondata.target}
+          </title>
+          <link rel="canonical" href={window.location.href} />
+          <meta
+            name="description"
+            content="United States Family Marketing offers affordable marketing services online."
+          />
+          <meta property="og:image" content={logo} />
+          <meta property="og:url" content={window.location.href} />
+          <meta
+            property="og:title"
+            content={jsondata.fullname + jsondata.target}
+          />
+        </Helmet>
       </HelmetProvider>
       <div className=" m-auto img z-0 text-center pt-24 p-12">
         <h1 className="text-white font-bold mb-3 text-2xl bg-gradient-to-r from-blue-500/70 to-red-500/70  p-2">
@@ -48,11 +54,11 @@ export default function Home() {
         </h2>
         <p className="text-sm">
           United States Family Marketing offers a unique approach to digital
-          marketing. We offer a wide variety of marketing & advertising services
+          marketing. We offer a wide variety of online marketing & advertising services
           to our clients across the United States.{" "}
         </p>
         <Link to="/contact">
-          <button className="mt-2 bg-blue-500 p-2 text-white font-bold border-2">
+          <button className="transition hover:scale-110 delay-75 mt-2 bg-blue-500 p-2 text-white font-bold border-2">
             Start Your Project
           </button>
         </Link>{" "}
@@ -61,9 +67,10 @@ export default function Home() {
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
           <h2 className="font-bold mb-2.5">Unique Hosting Solutions</h2>
           <p className="text-sm">
-            Host our websites for free without worrying about Cpanel or clunky
-            interfaces. USFM offers everything you need and 24/7 customer
-            support. We deploy our content on the{" "}
+            Host your websites without worrying about clunky interfaces. United
+            States Family Marketing offers managed hosting for any type of
+            website. We will deploy and maintain your website using state of the
+            art technologies. We deploy most of our React content on the{" "}
             <a
               className="text-blue-400 hover:text-blue-500"
               href="https://vercel.com"
@@ -92,8 +99,8 @@ export default function Home() {
               React
             </a>{" "}
             apps. Vercel also allows us to offer every custom of ours a free SSL
-            certificate on their website. We also offer custom on-site computer
-            solutions for hosting websites yourself.
+            certificate on their website. We also offer custom IT & server
+            solutions for hosting websites in-house.
           </p>
         </div>
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
