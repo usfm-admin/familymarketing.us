@@ -15,7 +15,6 @@ export default function WebDesign() {
               <HelmetProvider>
 
       <Helmet>
-        <meta charSet="utf-8" />
         <title> {title + ' - ' + jsondata.shortdomain[0].toUpperCase() + jsondata.shortdomain.slice(1).toLowerCase()} </title>
         <link rel="canonical" href={window.location.href} />
         <meta

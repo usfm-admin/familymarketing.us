@@ -17,7 +17,6 @@ export default function WebDesign() {
     <div>
       <HelmetProvider>
         <Helmet>
-          <meta charSet="utf-8" />
           <title>
             {" "}
             {title +

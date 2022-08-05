@@ -11,7 +11,6 @@ export default function Services() {
     <div className=" img flex flex-col md:flex-row lg:flex-row">
               <HelmetProvider>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Services - Familymarketing.us</title>
         <link rel="canonical" href={window.location.href} />
         <meta

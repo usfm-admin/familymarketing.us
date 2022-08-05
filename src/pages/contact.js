@@ -10,7 +10,6 @@ function App() {
     <header>
               <HelmetProvider>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>{templatedata.title}</title>
         <meta name="description" content={templatedata.subtitle} />
         <link rel="canonical" href={window.location.href} />
