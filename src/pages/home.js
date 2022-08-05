@@ -20,13 +20,12 @@ export default function Home() {
       <HelmetProvider>
         <Helmet>
           <title>
-            {" "}
             {jsondata.fullname} {jsondata.target}
           </title>
           <link rel="canonical" href={window.location.href} />
           <meta
             name="description"
-            content="United States Family Marketing offers affordable marketing services online."
+            content="United States Family Marketing offers affordable marketing services online. https://familymarketing.us"
           />
           <meta property="og:image" content={logo} />
           <meta property="og:url" content={window.location.href} />
@@ -51,7 +50,7 @@ export default function Home() {
       </section>
       <section className="bg-sky-100 p-8">
         <h2 className="text-3xl text-left mb-3">
-          Digital Advertising For The Modern World
+          Digital Advertising For A Modern World
         </h2>
         <p className="text-sm">
           United States Family Marketing offers a unique approach to digital
@@ -118,9 +117,9 @@ export default function Home() {
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
 
-          <h2 className="font-bold mb-2.5">Custom Web Design Templates</h2>
+          <h2 className="font-bold mb-2.5">Best In Class Custom Website Templates</h2>
           <p className="text-sm">
-            Our website design templates are tested to be superior on Google
+            Our website design templates are tested to test superior on Google
             Lighthouse, meaning they will offer superior performance, SEO, and
             Progressive Web App functionality.
           </p>
@@ -133,7 +132,7 @@ export default function Home() {
           />
           <h2 className="font-bold mb-2.5">Affordable Website Design</h2>
           Build your dream website without breaking the bank. We offer managed
-          website/email servers for as low as $29.99/month
+          website and email servers for as low as $29.99/month.
           <p className="text-sm"></p>
         </div>
       </section>
