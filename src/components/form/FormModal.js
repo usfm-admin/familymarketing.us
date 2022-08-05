@@ -1,11 +1,10 @@
 import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 import ReCAPTCHA from "react-google-recaptcha";
 
 import templatedata from "../../data/formdata.json";
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default function FormModal() {
   const form = useRef();
@@ -40,8 +39,8 @@ export default function FormModal() {
     );
   }
 
-  async function sendEmail(event) {
-    await event.preventDefault();
+  async function sendEmail(e) {
+    await e.preventDefault();
     try {
       await setattempt("attempting");
       await emailjs
@@ -58,7 +57,6 @@ export default function FormModal() {
             setattempt("idle");
           }
         });
-      await sleep(833);
       await setattempt("success");
     } catch (e) {
       await setattempt("idle");
@@ -66,9 +64,9 @@ export default function FormModal() {
   }
 
   return (
-    <div className="  w-full  relative	 m-auto font-mono ">
-      <div className="grid  grid-cols-1 p-1 ">
-        <div className="bg-white  p-3 lg:test testm order-last  test2 rounded-xl">
+    <div className="w-full relative m-auto font-mono ">
+      <div className="grid grid-cols-1 p-1 ">
+        <div className="bg-white  p-3 lg:test testm order-last test2 rounded-xl">
           <div>
             <form ref={form}>
               <div className="mb-6 flex-1">
