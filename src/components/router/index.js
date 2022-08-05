@@ -20,7 +20,7 @@ const MailServer = lazy(() => import("../../pages/services/mail-server"));
 export default function Router() {
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className="flex items-center justify-center h-screen "><div className="loader"></div></div>}>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
