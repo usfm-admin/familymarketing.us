@@ -16,7 +16,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={facebook}
           />
         </a>
@@ -27,7 +27,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={pinterest}
           />
         </a>
@@ -38,7 +38,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={twitter}
           />
         </a>
@@ -49,7 +49,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={instagram}
           />
         </a>
@@ -60,7 +60,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={github}
           />
         </a>
@@ -71,7 +71,7 @@ export default function Footer() {
         >
           <img
             alt="United States Family Marketing Social "
-            className="transition hover:scale-105 w-8 m-1"
+            className="transition hover:scale-105 w-8 h-8 m-1"
             src={yelp}
           />
         </a>
