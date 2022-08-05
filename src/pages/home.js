@@ -8,6 +8,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import usfmfolder from "../assets/usfm-folder.webp";
 import usfmpiggy from "../assets/usfmpiggy.webp";
+import usfmserver from "../assets/managed-server.webp";
 
 import logo from "../assets/usfmmeta.webp";
 
@@ -54,8 +55,10 @@ export default function Home() {
         </h2>
         <p className="text-sm">
           United States Family Marketing offers a unique approach to digital
-          marketing. We offer a wide variety of online marketing & advertising services
-          to our clients across the United States.{" "}
+          marketing. We offer a wide variety of online marketing & advertising
+          services to our clients across the United States. Our services at the
+          time include, but are not limited to: Web Design, Managed Hosting,
+          Custom Email/Website Servers, Logo Design & Business Cards.{" "}
         </p>
         <Link to="/contact">
           <button className="transition hover:scale-110 delay-75 mt-2 bg-blue-500 p-2 text-white font-bold border-2">
@@ -65,6 +68,11 @@ export default function Home() {
       </section>
       <section className="flex flex-col p-3">
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
+          <img
+            src={usfmserver}
+            className="mb-5 w-12 h-12"
+            alt="US FAMILY MARKETING WEB DESIGN SERVICES"
+          />
           <h2 className="font-bold mb-2.5">Unique Hosting Solutions</h2>
           <p className="text-sm">
             Host your websites without worrying about clunky interfaces. United
@@ -110,11 +118,11 @@ export default function Home() {
             alt="US FAMILY MARKETING WEB DESIGN SERVICES"
           />
 
-          <h2 className="font-bold mb-2.5">Best Custom Web Design Templates</h2>
+          <h2 className="font-bold mb-2.5">Custom Web Design Templates</h2>
           <p className="text-sm">
             Our website design templates are tested to be superior on Google
             Lighthouse, meaning they will offer superior performance, SEO, and
-            PWA functionality.
+            Progressive Web App functionality.
           </p>
         </div>
         <div className="bg-white border rounded-lg min-w-full p-5 mb-5">
@@ -125,7 +133,7 @@ export default function Home() {
           />
           <h2 className="font-bold mb-2.5">Affordable Website Design</h2>
           Build your dream website without breaking the bank. We offer managed
-          website/email servers for as low as $9.99/month
+          website/email servers for as low as $29.99/month
           <p className="text-sm"></p>
         </div>
       </section>
