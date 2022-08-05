@@ -4,6 +4,8 @@ import twitter from "../../assets/usfm-twitter.webp";
 import instagram from "../../assets/usfm-instagram.webp";
 import github from "../../assets/usfm-github.webp";
 import yelp from "../../assets/usfm-yelp.webp";
+import ebay from "../../assets/usfm-ebay.webp";
+
 
 export default function Footer() {
   return (
@@ -73,6 +75,17 @@ export default function Footer() {
             alt="United States Family Marketing Social "
             className="transition hover:scale-105 w-8 h-8 m-1"
             src={yelp}
+          />
+        </a>
+        <a
+          href="https://www.ebay.com/usr/unitedstatesfamilymarketing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            alt="United States Family Marketing Social "
+            className="transition hover:scale-105 w-8 h-8 m-1"
+            src={ebay}
           />
         </a>
       </div>
