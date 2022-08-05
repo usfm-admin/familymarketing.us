@@ -18,6 +18,7 @@ export default function Services() {
           content="United States Family Marketing offers affordable marketing services online."
         />
         <meta property="og:image" content={logo} />
+        <meta property="og:url" content= {window.location.href}/>
 
       </Helmet>
       </HelmetProvider>

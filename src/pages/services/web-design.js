@@ -4,13 +4,19 @@ import logo from "../../assets/usfmmeta.webp";
 
 import jsondata from "../../data/global.json";
 
-const title = "Web Design Services";
+const titlepre = "Web Design Services";
 
 const desc =
   jsondata.fullname +
   " provides advanced " +
-  title +
+  titlepre +
   " for businesses of all sizes.";
+
+const title =
+  titlepre +
+  " - " +
+  jsondata.shortdomain[0].toUpperCase() +
+  jsondata.shortdomain.slice(1).toLowerCase();
 
 export default function WebDesign() {
   return (
@@ -18,16 +24,13 @@ export default function WebDesign() {
       <HelmetProvider>
         <Helmet>
           {" "}
-          <title>
-            {" "}
-            {title +
-              " - " +
-              jsondata.shortdomain[0].toUpperCase() +
-              jsondata.shortdomain.slice(1).toLowerCase()}{" "}
-          </title>
+          <title>{title}</title>
           <link rel="canonical" href={window.location.href} />
           <meta name="description" content={desc} />
+          <meta property="og:description" content={desc} />
           <meta property="og:image" content={logo} />
+          <meta property="og:url" content= {window.location.href}/>
+          <meta property="og:title"  content={title} />
         </Helmet>
       </HelmetProvider>
 

@@ -25,6 +25,8 @@ export default function Home() {
           content="United States Family Marketing offers affordable marketing services online."
         />
         <meta property="og:image" content={logo} />
+        <meta property="og:url" content= {window.location.href}/>
+          <meta property="og:title"  content={jsondata.fullname + jsondata.target} />
       </Helmet>
       </HelmetProvider>
       <div className=" m-auto img z-0 text-center pt-24 p-12">
