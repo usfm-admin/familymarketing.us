@@ -6,7 +6,7 @@ import servicesdata from "../../data/services.json";
 
 import Home from "../../pages/home";
 import ServicesPage from "../../pages/servicespage";
-import Contact from "../../pages/services";
+import Contact from "../../pages/contact";
 import Links from "../../pages/links";
 import Services from "../../pages/services";
 
