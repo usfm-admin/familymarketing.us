@@ -8,7 +8,7 @@ import logo from "../assets/usfmmeta.webp"
 
 export default function Services() {
   return (
-    <div className=" img flex flex-col md:flex-row lg:flex-row">
+    <div className="lg:grid lg:grid-cols-3 bg-gray-300 flex flex-col lg:flex-row">
               <HelmetProvider>
       <Helmet>
         <title>Services - Familymarketing.us</title>

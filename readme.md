@@ -1,9 +1,14 @@
 Familymarketing.us
 
-The outline of V1 is to include the bare minimums for templated navigation, assets, and email services.
+United States marketing & website expertise. Visit https://familymarketing.us to learn about us. We currently provide remote services to US businesses. 
 
-Another goal of this project is to automate everything using at first commander/inquirer.
+--
+yarn
+yarn start
+edit json data in src/data
+vercel --prod
 
-Development of this website has led to a neccessity being social media accounts to be developed. This will need to be documented throughouly for the current social media version. 
+To add a link, edit json data in src/data/links.json
+To add a service edit json data in src/data/services.json
 
-The goal is to automate as much of the web design process as possible. To streamline this we will attempt to gather neccessary data through forms and be able to create a with that data.
+----

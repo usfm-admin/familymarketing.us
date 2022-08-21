@@ -25,6 +25,10 @@ async function sitemap() {
         <lastmod>${event}</lastmod>
     </url>`;
       })}
+      <url>
+          <loc>${`${data.homepage}/colorprofile.pdf`}</loc>
+          <lastmod>${event}</lastmod>
+      </url>
     </urlset>`
   );
 }

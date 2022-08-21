@@ -5,7 +5,19 @@
       "link": "https://www.ebay.com/usr/usfamilymarketing",
       "metadesc": "View United States Family Marketing's Ebay products.",
       "image": "https://i.ebayimg.com/images/g/J8oAAOSwOzpizJs5/s-l500.jpg"
+    },
+    {
+      "name": "AV-Labor",
+      "link": "https://av-labor.com",
+      "metadesc": "Hire labor for an event.",
+      "image": "https://av-labor.com/static/media/costamesa-av.e2fefefb5e2c677b1013.webp"
     }
-    
+    ,
+    {
+      "name": "Pack Fresh",
+      "link": "https://packfresh.net",
+      "metadesc": "Buy Magic the Gathering Cards with Crypto",
+      "image": "https://c1.scryfall.com/file/scryfall-cards/large/front/7/9/7946b256-ae79-4b99-8bf4-0d627baf9044.jpg?1557576966"
+    }
   ]
 }

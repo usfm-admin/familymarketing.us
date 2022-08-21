@@ -106,10 +106,3 @@ code {
   box-shadow: rgb(226, 91, 81) 4px 4px 0px 0px;
 }
 
-.wdhero {
-  background-image: url("./assets/wdhero2.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 78vh;
-
-}
