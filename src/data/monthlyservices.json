@@ -10,24 +10,6 @@
         "startingprice": "$19.99"
     },
     {
-        "name": "Business Cards",
-        "link": "business-cards",
-        "metadesc": "Business Cards",
-        "image": "usfm-business-cards.webp",
-        "desc": "Business cards are essential to your business. When you are talking about your business to another person, why not show them? Your business card says a lot about your business, and should come with a logo, website address, and QR code that leads to your website. United States Family Marketing offers a superior and unique approach to business card design. Usually this is tied into logo design, however we can do without it initially. We design superior business cards for you, that are guarenteed to turn heads and catch people's attention.",
-        "id": 1,
-        "included": ["100% Uptime", "Customized Web Design","Free SSL Certificate","24/7 Support"]
-    },
-    {
-        "name": "Logos & Seals",
-        "link": "logos",
-        "metadesc": "Logos & Seals",
-        "desc": "Logos and Seals for your business are extremely important. Often times the only interaction seen is your logo. People are easy to judge a book by it's cover, so a beautiful, eye-catching logo is extremely important.",
-        "image": "usfm-logos.webp",
-        "id": 2,
-        "included": ["100% Uptime", "Customized Web Design","Free SSL Certificate","24/7 Support"]
-    },
-    {
         "name": "Custom Email Servers",
         "link": "mail-server",
         "metadesc": "Custom Email Servers",
@@ -36,14 +18,15 @@
         "id": 3,
         "included": ["Private Email Server", "100% Uptime","STFP Backup","Unlimited Email Addresses & Domains"],
         "startingprice": "$49.99"
-    }, {
+    }, 
+    {
         "name": "SEO",
         "link": "seo",
         "metadesc": "SEO Solutions For Business",
         "desc": "SEO is extremely important, especially if you are juggling other parts of your business. US Family Marketing offers SEO solutions that work, and will rank your website highly on Google, Bing, Brave and other search engines.",
         "image": "seo.webp",
         "id": 4,
-        "included": ["First Page Google Results", "Bing, Yandex, Yahoo, Brave","Weekly/Monthly Blog Posts","24/7 Support"],
+        "included": ["First Page Google Results", "Bing, Yandex, Yahoo, Brave","Weekly/Monthly Blog Posts","24/7 Support", "Photographs of your Business"],
         "startingprice": "$49.99"
     }
     , {

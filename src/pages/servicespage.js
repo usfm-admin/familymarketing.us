@@ -21,48 +21,48 @@ export default function ServicesPage(props) {
         </Helmet>
       </HelmetProvider>
       <section className="text-left lg:text-center  ">
-          <div className="  bg-red-500/30 font-bold text-4xl p-2 text-center">
-            {props.data.name}
-          </div>
-          <img
-            className="rounded h-80 object-cover m-auto my-2"
-            src={require(`../assets/${props.data.image}`)}
-            alt={globaldata.fullname + "service"}
-          />
-       <div className="  bg-blue-400/10 font-medium text-2xl p-2 ">
-            {props.data.metadesc}
-          </div>
-          <div className="  m-5">{props.data.desc}</div>
-          
-          <Link
-            className=" p-2 text-white bg-blue-500 hover:bg-blue-400 border-black"
-            to={"/contact"}
-          >
-            Contact
-          </Link>
-    
-      </section>
-
-      {/* <section className="text-left lg:text-center  ">
-        <div className="">
-  
-          <img
-            className=" rounded h-80 object-cover	m-auto  "
-            src={require(`../assets/${props.data.image}`)}
-            alt={globaldata.fullname + "service"}
-          />
-
-          <div className=" m-5">{props.data.desc}</div>
-          
-
-          <Link
-            className=" p-2 text-white bg-blue-500 hover:bg-blue-400 border-black"
-            to={"/contact"}
-          >
-            Contact
-          </Link>
+        <h1 className="  bg-red-500/30 font-bold text-4xl p-2 text-center">
+          {props.data.name}
+        </h1>
+        <img
+          className="rounded h-80 object-cover m-auto my-5"
+          src={require(`../assets/${props.data.image}`)}
+          alt={globaldata.fullname + "service"}
+        />
+        <div className="  bg-blue-400/10 font-medium text-2xl">
+          {props.data.metadesc}
         </div>
-      </section> */}
+        <div className="  m-5">{props.data.desc}</div>
+      </section>
+      {props.data.startingprice ?
+      <section class="border-4  mx-auto max-w-screen-xl lg:py-10 ">
+        <div class="space-y-4 sm:gap-6 xl:gap-10 m-auto">
+          <div class="  mx-auto  text-center text-gray-900 bg-white rounded-lg">
+            <h3 class=" text-2xl font-semibold">{props.data.name} Plans Starting at:</h3>
+     
+            <div class="flex justify-center items-baseline my-8">
+              <span class="mr-2 text-5xl font-extrabold">{props.data.startingprice}</span>
+              <span class="text-gray-500 ">/month</span>
+            </div>
+            <ul class="mb-8 space-y-4 ">
+              {props.data.included.map((items) => {
+                return (
+                  <li class=" items-center space-x-3">
+                    <span>{items}</span>
+                  </li>
+                );
+              })}
+            </ul>
+
+            <Link
+              className=" p-2 text-white bg-blue-500 hover:bg-blue-400 border-black"
+              to={"/contact"}
+            >
+              Contact
+            </Link>
+          </div>
+        </div>
+      </section>:null}
     </>
   );
 }
