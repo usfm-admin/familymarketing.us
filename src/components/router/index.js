@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import React, { Suspense, lazy } from "react";
+import React, { Suspense } from "react";
 import Nav from "../nav";
 
 import servicesdata from "../../data/services.json";
 
-export default function Router() {
-  const Home = lazy(() => import("../../pages/home"));
-  const Services = lazy(() => import("../../pages/services"));
-  const Contact = lazy(() => import("../../pages/contact"));
-  const Links = lazy(() => import("../../pages/links"));
-  const ServicesPage = lazy(() => import("../../pages/servicespage"));
+import Home from "../../pages/home";
+import ServicesPage from "../../pages/servicespage";
+import Contact from "../../pages/services";
+import Links from "../../pages/links";
+import Services from "../../pages/services";
 
+export default function Router() {
   return (
     <Suspense
       fallback={
