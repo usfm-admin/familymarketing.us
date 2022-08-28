@@ -10,12 +10,9 @@ export default function Nav() {
 
   useEffect(() => {
     function nav() {
-      function hr() {
-        setwindowstate(window.innerWidth);
-      }
-      // await setnavstate(navdata)
+
       setwindowstate(window.innerWidth)
-      window.addEventListener("resize", hr);
+      window.addEventListener("resize", setwindowstate(window.innerWidth));
     }
     nav();
   });

@@ -4,7 +4,7 @@
         "link": "web-design",
         "metadesc": "Web Design For Business",
         "desc": "United States Family Marketing offers a superior and unique approach to web design. We offer several starter packages as well as advanced server configurations. Generally we group web design into 3 tiers: Basic, Standard, and Advanced. Basic packages include a landing page with contact form, everything you need to promote your website online and get contacted. Standard includes any website with multiple pages, navigation and routing. We consider advanced websites ones that deal with Ecommerce, API's & more. All of our websites come outfitted with the latest SEO tech.",
-        "image": "usfm-web-design.webp",
+        "image": "database.webp",
         "id": 0,
         "included": ["100% Uptime", "Customized Web Design","Free SSL Certificate","24/7 Support"],
         "startingprice": "$19.99"
@@ -50,10 +50,20 @@
       "name": "Crypto",
       "link": "crypto",
       "metadesc": "Integrate Crypto In Your Business",
-      "desc": "United States Family Marketing makes it easy for your business to accept crypto payments. We offer a variety of solutions to help your business accept crypto payments. We offer consulting into the best current services and are familiar with most crypto payment processing apis.",
+      "desc": "United States Family Marketing makes it easy for your business to accept crypto payments. We offer a variety of solutions to help your business accept crypto payments. We also offer consulting into the best current services and make it easiest to integrate the Plisio API.",
       "image": "crypto.jpg",
       "id": 5,
       "included": ["Accept Crypto Payments", "Withdraw Crypto","24/7 Support"],
-      "startingprice": "$39.99"
+      "startingprice": "$99.99"
   }
+  , {
+    "name": "Photoshop",
+    "link": "photoshop",
+    "metadesc": "Photoshop Templates",
+    "desc": ".",
+    "image": "usfm-web-design.webp",
+    "id": 5,
+    "included": ["Accept Crypto Payments", "Withdraw Crypto","24/7 Support"],
+    "startingprice": "$99.99"
+}
 ]

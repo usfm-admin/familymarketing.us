@@ -7,7 +7,7 @@
         "image": "usfm-web-design.webp",
         "id": 0,
         "included": ["100% Uptime", "Customized Web Design","Free SSL Certificate","24/7 Support"],
-        "startingprice": "$19.99"
+        "startingprice": "$200.99"
     },
     {
         "name": "Custom Email Servers",
@@ -17,7 +17,7 @@
         "image": "usfm-email-servers.webp",
         "id": 3,
         "included": ["Private Email Server", "100% Uptime","STFP Backup","Unlimited Email Addresses & Domains"],
-        "startingprice": "$49.99"
+        "startingprice": "$99.99"
     }, 
     {
         "name": "SEO",
@@ -27,16 +27,16 @@
         "image": "seo.webp",
         "id": 4,
         "included": ["First Page Google Results", "Bing, Yandex, Yahoo, Brave","Weekly/Monthly Blog Posts","24/7 Support", "Photographs of your Business"],
-        "startingprice": "$49.99"
+        "startingprice": "$99.99"
     }
     , {
       "name": "Crypto",
       "link": "crypto",
       "metadesc": "Integrate Crypto In Your Business",
-      "desc": "United States Family Marketing makes it easy for your business to accept crypto payments. We offer a variety of solutions to help your business accept crypto payments. We offer consulting into the best current services and are familiar with most crypto payment processing apis.",
-      "image": "crypto.jpg",
+      "desc": "United States Family Ma0rketing makes it easy for your business to accept crypto payments. We offer a variety of solutions to help your business accept crypto payments. We offer consulting into the best current services and recommend Plisio.",
+      "image": "photoshop.jpg",
       "id": 5,
       "included": ["Accept Crypto Payments", "Withdraw Crypto","24/7 Support"],
-      "startingprice": "$39.99"
+      "startingprice": "$99.99"
   }
 ]
