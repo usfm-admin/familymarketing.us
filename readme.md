@@ -12,3 +12,19 @@ To add a link, edit json data in src/data/links.json
 To add a service edit json data in src/data/services.json
 
 ----
+
+keywords to lookup banking
+
+
+
+--------------------
+
+V2
+
+yarn 
+yarn pre
+yarn sitemap
+yarn build
+yarn start
+
+

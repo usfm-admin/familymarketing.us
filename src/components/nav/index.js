@@ -10,12 +10,13 @@ export default function Nav() {
 
   useEffect(() => {
     function nav() {
-
+      
       setwindowstate(window.innerWidth)
       window.addEventListener("resize", setwindowstate(window.innerWidth));
     }
     nav();
-  });
+  },[]);
+  // change this [] in production
   // 420p resolution recheck monitor sizes
   if (windowstate < 852) {
     return <MobileNav object={dataobject} />;

@@ -3,6 +3,11 @@ const fs = require("fs");
 const data = require("../src/data/navigation.json");
 const services = require("../src/data/services.json");
 
+const filedata = require('./data.json')
+
+
+
+
 async function sitemap() {
   const today = await new Date();
   const event = await today.toISOString()
@@ -25,10 +30,12 @@ async function sitemap() {
         <lastmod>${event}</lastmod>
     </url>`;
       })}
-      <url>
-          <loc>${`${data.homepage}/colorprofile.pdf`}</loc>
-          <lastmod>${event}</lastmod>
-      </url>
+      ${filedata.map((item) => {
+        return `<url>
+        <loc>${`${data.homepage}/${item}`}</loc>
+        <lastmod>${event}</lastmod>
+    </url>`;
+      })}
     </urlset>`
   );
 }

@@ -2,38 +2,80 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
           <loc>https://familymarketing.us/</loc>
-          <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+          <lastmod>2022-08-28T21:25:56.648Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/services</loc>
-          <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+          <lastmod>2022-08-28T21:25:56.648Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/contact</loc>
-          <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+          <lastmod>2022-08-28T21:25:56.648Z</lastmod>
       </url>,<url>
           <loc>https://familymarketing.us/links</loc>
-          <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+          <lastmod>2022-08-28T21:25:56.648Z</lastmod>
       </url>
       <url>
         <loc>https://familymarketing.us/services/web-design</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>,<url>
         <loc>https://familymarketing.us/services/business-cards</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>,<url>
         <loc>https://familymarketing.us/services/logos</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>,<url>
         <loc>https://familymarketing.us/services/mail-server</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>,<url>
         <loc>https://familymarketing.us/services/seo</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>,<url>
         <loc>https://familymarketing.us/services/crypto</loc>
-        <lastmod>2022-08-21T20:21:00.470Z</lastmod>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/services/photoshop</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
     </url>
       <url>
-          <loc>https://familymarketing.us/colorprofile.pdf</loc>
-          <lastmod>2022-08-21T20:21:00.470Z</lastmod>
-      </url>
+        <loc>https://familymarketing.us/BingSiteAuth.xml</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/colorprofile.pdf</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/familymarketing.us-web_design_$99.99.pdf</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/googlece5bad98b3c7347b.html</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/index.html</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/manifest.json</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/robots.txt</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/sitemap.xml</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/united-states-family-marketing-favicon.ico</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/united-states-marketing-favicon.ico</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/usfm-logo-cropped.png</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/usfm-logo192.png</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/usfm-logo512.png</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>,<url>
+        <loc>https://familymarketing.us/yandex_f9a0066251a69d83.html</loc>
+        <lastmod>2022-08-28T21:25:56.648Z</lastmod>
+    </url>
     </urlset>
