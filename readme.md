@@ -1,6 +1,8 @@
-Familymarketing.us
+version 3
 
-United States marketing & website expertise. Visit https://familymarketing.us to learn about us. We currently provide remote services to US businesses. 
+Familymarketing.us - master template
+
+United States Marketing & Web Design exoerts. Visit https://familymarketing.us to learn about us. We currently provide remote and in person marketing services to US businesses. 
 
 --
 yarn
@@ -11,15 +13,6 @@ vercel --prod
 To add a link, edit json data in src/data/links.json
 To add a service edit json data in src/data/services.json
 
-----
-
-keywords to lookup banking
-
-
-
---------------------
-
-V2
 
 yarn 
 yarn pre

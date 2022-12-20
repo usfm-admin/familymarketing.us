@@ -3,15 +3,11 @@ const fs = require("fs");
 const data = require("../src/data/navigation.json");
 const services = require("../src/data/services.json");
 
-const filedata = require('./data.json')
-
-
-
+const filedata = require("./data.json");
 
 async function sitemap() {
   const today = await new Date();
-  const event = await today.toISOString()
-  await console.log(event)
+  const event = await today.toISOString();
 
   await fs.writeFileSync(
     "../public/sitemap.xml",

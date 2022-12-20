@@ -14,7 +14,7 @@ export default function Router() {
   return (
     <Suspense
       fallback={
-        <div className="flex items-center justify-center h-screen ">
+        <div className="flex items-center justify-center h-screen">
           <div className="loader"></div>
         </div>
       }
@@ -23,9 +23,10 @@ export default function Router() {
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        {servicesdata.map((data) => {
+        {servicesdata.map((data,key) => {
           return (
             <Route
+            key={key}
               path={"/services/" + data.link}
               element={<ServicesPage data={data} />}
             />
