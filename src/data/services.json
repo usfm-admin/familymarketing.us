@@ -60,10 +60,10 @@
     "name": "Photoshop",
     "link": "photoshop",
     "metadesc": "Photoshop Templates",
-    "desc": ".",
+    "desc": "Make photoshop templates for your business logos, graphics andmore.",
     "image": "usfm-web-design.webp",
     "id": 5,
-    "included": ["Accept Crypto Payments", "Withdraw Crypto","24/7 Support"],
+    "included": [""],
     "startingprice": "$99.99"
 }
 ]
