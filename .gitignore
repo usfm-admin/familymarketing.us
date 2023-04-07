@@ -26,3 +26,5 @@ yarn-error.log*
 
 *.json
 !spec/*.json
+
+/src/data
