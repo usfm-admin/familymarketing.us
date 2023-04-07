@@ -80,17 +80,20 @@ background-repeat: no-repeat;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
+  height: 9px;  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(96 165 250);
+  background: rgb(124, 195, 236);
+  border-radius: 10px;
 }
 
 /* Handle on hover */

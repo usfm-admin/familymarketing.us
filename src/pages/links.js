@@ -2,14 +2,13 @@ import LinkData from "../data/links.json";
 
 import LinkCard from "../components/linkcard";
 
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-import logo from "../assets/usfmmeta.webp"
+import { Helmet } from "react-helmet";
+import logo from "../assets/usfmmeta.webp";
 
 export default function Services() {
   return (
     <div className=" img flex flex-col md:flex-row lg:flex-row">
-              <HelmetProvider>
-            <Helmet>
+      <Helmet>
         <title>Links - Familymarketing.us</title>
         <link rel="canonical" href={window.location.href} />
         <meta
@@ -17,12 +16,10 @@ export default function Services() {
           content="United States Family Marketing offers affordable marketing services online."
         />
         <meta property="og:image" content={logo} />
-        <meta property="og:url" content= {window.location.href}/>
-
+        <meta property="og:url" content={window.location.href} />
       </Helmet>
-      </HelmetProvider>
 
-      {LinkData.links.map((item,index) => {
+      {LinkData.links.map((item, index) => {
         return (
           <LinkCard
             key={index}

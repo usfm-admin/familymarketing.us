@@ -10,9 +10,9 @@ export default function DeskNav(props) {
       <div className="hidden md:flex items-center space-x-1">
         <a href="/" className="flex items-center py-4 px-2">
           <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
-          <span className="font-semibold text-gray-500 text-lg">
+          <p className="font-semibold text-gray-500 text-lg">
             {Data.fullname}
-          </span>
+          </p>
         </a>
         {props.object.pages.map((items, index) => {
           return (

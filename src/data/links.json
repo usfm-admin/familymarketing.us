@@ -1,15 +1,15 @@
 {
   "links": [
        {
-      "name": "Ebay",
-      "link": "https://www.ebay.com/usr/usfamilymarketing",
-      "metadesc": "View United States Family Marketing's Ebay products.",
+      "name": "Etsy",
+      "link": "https://www.etsy.com/shop/UnitedStatesGoods",
+      "metadesc": "View United States Family Marketing's Etsy products.",
       "image": "https://i.ebayimg.com/images/g/J8oAAOSwOzpizJs5/s-l500.jpg"
     },
     {
       "name": "AV-Labor",
       "link": "https://av-labor.com",
-      "metadesc": "Hire labor for an event.",
+      "metadesc": "Hire Audio Visual labor for an event.",
       "image": "https://av-labor.com/static/media/costamesa-av.e2fefefb5e2c677b1013.webp"
     }
     ,
