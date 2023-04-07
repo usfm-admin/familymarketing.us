@@ -4,7 +4,7 @@ version 3
 
 Familymarketing.us - master template
 
-United States Marketing & Web Design exoerts. Visit https://familymarketing.us to learn about us. We currently provide remote and in person marketing services to US businesses. 
+United States Marketing & Web Design experts. Visit https://familymarketing.us to learn about us. We currently provide remote and in person marketing services to US businesses. 
 
 --
 yarn
