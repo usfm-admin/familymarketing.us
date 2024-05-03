@@ -9,8 +9,7 @@ export default function Nav() {
   // const [navstate, setnavstate] = useState([])
 
   useEffect(() => {
-    function nav() {
-      
+    function nav() {    
       setwindowstate(window.innerWidth)
       window.addEventListener("resize", setwindowstate(window.innerWidth));
     }

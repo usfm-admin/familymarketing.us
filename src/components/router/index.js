@@ -7,7 +7,6 @@ import servicesdata from "../../data/services.json";
 import Home from "../../pages/home";
 import ServicesPage from "../../pages/servicespage";
 import Contact from "../../pages/contact";
-import Links from "../../pages/links";
 import Services from "../../pages/services";
 
 export default function Router() {
@@ -34,7 +33,6 @@ export default function Router() {
         })}
 
         <Route path="/contact" element={<Contact />} />
-        <Route path="/links" element={<Links />} />
 
         <Route path="*" element={<Home />} />
       </Routes>

@@ -13,11 +13,10 @@ export default function Carousel() {
       }
     >
       {services
-        ? services.map((items,key) => {
+        ? services.map((items, key) => {
             return (
               <Link key={key} className="p-5" to={"services/" + items.link}>
                 <Card
-                
                   name={items.name}
                   image={items.image}
                   metadesc={items.metadesc}

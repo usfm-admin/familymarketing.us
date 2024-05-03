@@ -7,7 +7,7 @@ import logo from "../assets/usfmmeta.webp";
 
 export default function Services() {
   return (
-    <div className="  content-center flex flex-col flex-wrap lg:flex-row">
+    <div className="content-center flex flex-col flex-wrap lg:flex-row">
       <Helmet>
         <title>Services - Familymarketing.us</title>
         <link rel="canonical" href={window.location.href} />

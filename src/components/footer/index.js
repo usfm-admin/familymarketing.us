@@ -4,7 +4,7 @@ import twitter from "../../assets/usfm-twitter.webp";
 import instagram from "../../assets/usfm-instagram.webp";
 import github from "../../assets/usfm-github.webp";
 import yelp from "../../assets/usfm-yelp.webp";
-import ebay from "../../assets/usfm-ebay.webp";
+import ebay from "../../assets/ebay.png";
 
 
 export default function Footer() {
@@ -78,7 +78,7 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://www.ebay.com/usr/unitedstatesfamilymarketing"
+          href="https://www.ebay.com/usr/ausro2027"
           target="_blank"
           rel="noreferrer"
         >
@@ -100,7 +100,7 @@ export default function Footer() {
       <div className="">
         Website Design by{" "}
         <a
-          className="text-blue-400 hover:text-blue-600"
+          className="text-blue-500 hover:text-blue-800"
           href="https://familymarketing.us"
         >
           United States Family Marketing

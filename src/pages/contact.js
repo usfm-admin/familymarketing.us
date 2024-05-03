@@ -7,6 +7,7 @@ import logo from "../assets/usfmmeta.webp";
 
 function App() {
   return (
+    <>
     <header>
         <Helmet>
           <title>{templatedata.title}</title>
@@ -16,8 +17,9 @@ function App() {
           <meta property="og:image" content={logo} />
           <meta property="og:title" content={templatedata.title} />
         </Helmet>
+        </header>
       <FormModal />
-    </header>
+      </>
   );
 }
 

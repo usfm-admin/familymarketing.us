@@ -18,25 +18,21 @@ export default function ServicesPage(props) {
         <meta property="og:url" content={window.location.href} />
         <meta property="og:title" content={title} />
       </Helmet>
-      <section className="text-left lg:text-center">
-        <h1 className=" font-bold text-4xl p-2 text-center">
-          {props.data.name}
-        </h1>
-        <img
-          className=" h-96 object-cover p-5 m-auto "
+
+      <img
+          className="h-96	bg-center m-auto "
           src={require(`../assets/${props.data.image}`)}
-          alt={globaldata.fullname + "service"}
+          alt={globaldata.desc}
         />
-        <div className="text-center font-medium text-2xl">
+
+      <section className="text-left lg:text-center">
+        <h1 className="text-center font-medium text-2xl my-5">
           {props.data.metadesc}
-        </div>
-        <div className="m-5 border-2 border-red-300 border-dashed p-2 text-left"><div className="text-2xl font-bold m-2">{props.data.desctitle1}</div><p className="p-1">{props.data.desc}</p></div>
+        </h1>
+        <div className="mb-5 border-2 p-3 text-left"><div className="text-2xl font-bold m-2">{props.data.desctitle1}</div><p className="p-1">{props.data.desc}</p></div>
       </section>
       <section className="text-left lg:text-center">
-
-       
-
-        <div className="m-5 border-2 border-blue-300 border-dotted p-2 text-left"><div className="text-2xl font-bold m-2">{props.data.desctitle2}</div><p className="p-1">{props.data.desc2}</p></div>
+        <div className=" border-2 border-blue-200 p-3 text-left"><div className="text-2xl font-bold m-2">{props.data.desctitle2}</div><p className="p-1">{props.data.desc2}</p></div>
         <CButton to={"/contact"} />
       </section>
     </>
